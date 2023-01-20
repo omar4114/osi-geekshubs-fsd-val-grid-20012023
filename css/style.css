@@ -1,0 +1,33 @@
+body {
+    background-color: aqua;
+    margin: 0;
+}
+
+.container {
+    background-color: green;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr 1fr;
+    grid-template-rows: 1fr 5fr 1fr 1fr;
+    gap: 5px;
+}
+
+.box {
+    background-color: blueviolet;
+    color: white;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.box1 {
+    grid-column: 1/5;
+}
+
+.box2 {
+    grid-row: 2/4;
+}
+
+.box3 {
+    grid-column: 2/5;
+}
